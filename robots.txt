@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow:
+
+sitemap: https://suryansh04.github.io/sitemap.xml
