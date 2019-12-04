@@ -1,0 +1,124 @@
+/* Basic Setup */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family:"Roboto",sans-serif;
+    padding: 30px;
+    font-size: 1.6em;
+}
+/* Navigation Bar Styling */
+
+nav{
+    background-color: #ffb46d;
+    padding:  0.1em;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.navigation-bar li,.navigation-bar a{
+list-style: none;
+text-decoration: none;
+color:black;
+}
+.navigation-bar li{
+    float: left;
+    margin: 1em;
+}
+
+/* Clear-Fix */
+nav::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Some  common code */
+h1,h2{
+    text-align: center;
+    color:#e25544;;
+}
+
+section{
+    width:80%;
+}
+/* Styling For Section Home */
+
+
+
+.home h1,.home p,.home h2{
+margin-top:1em;
+}
+
+.home-question li{
+margin-top:0.2em;
+}
+img{
+    width:50%;
+    float: left;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    height: 400px;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
+img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+img::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Styling For Facts Section */
+.facts{
+    width: 80%;
+}
+.facts h2{
+    text-align: center;
+margin-bottom: 0.5em;
+}
+.facts li {
+    margin-top: 0.2em;
+}
+
+/* Styling For section programmers */
+
+.programmers h2{
+    margin-top: 0.4em;
+    margin-bottom: 0.6em;
+}
+
+table,th,td{
+    border: 1px solid red;
+    border-collapse: collapse;
+    padding: 1em;
+}
+
+
+/* styling for section links */
+.links a{
+text-decoration: none;
+}
+
+.links h2{
+    margin: 1em;
+}
